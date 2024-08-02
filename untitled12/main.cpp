@@ -12,7 +12,7 @@ int main() {
     cout << "Enter the number of vectors ";
     cin >> SIZE;
     while (SIZE <=0){
-        cout << "Wrong entry, Enter number greater than zero: ";
+        cout << "Invalid entry, Enter number greater than zero: ";
         cin >> SIZE;
     }
 
